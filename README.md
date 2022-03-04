@@ -25,3 +25,7 @@
 Вы можете реализовать данную задачу как с использованием Functional компонентов, так и на базе Class-Based компонентов.
 
 Но мы рекомендуем Functional.
+
+---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/vf8boes0pmn6ii2p/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-events-state-dropdown/branch/main)
