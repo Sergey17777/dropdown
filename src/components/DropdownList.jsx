@@ -7,7 +7,6 @@ const usid = new USID();
 
 export default function DropdownList(props) {
   const items = props.dataMenu;
-  console.log(props);
 
   const [selected, setSelected] = useState(false);
 
@@ -21,16 +20,15 @@ export default function DropdownList(props) {
     setSelected(!selected);
   };
 
-  const ul = [];
-  items.map((prop) => {
-    const li = (
-      <DropdownItem key={usid.rand()} item={prop} onClick={onClickItem} />
-    );
-
-    return ul.push(li);
-  });
-
-  return <ul className="dropdown">{ul}</ul>;
+  return (
+    <ul className="dropdown">
+      {items.map((prop) => {
+        return (
+          <DropdownItem key={usid.rand()} item={prop} onClick={onClickItem} />
+        );
+      })}
+    </ul>
+  );
 }
 
 DropdownItem.propTypes = {
