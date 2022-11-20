@@ -1,4 +1,4 @@
-# ra-events-state-dropdown
+﻿# ra-events-state-dropdown
 
 Выпадающий список
 ===
@@ -7,8 +7,7 @@
 
 ## Описание проекта
 
-![Выпадающий список](https://github.com/222Alexa/ra16-homeworks/raw/master/events-state/dropdown/assets/dropdown.png)
-
+![Выпадающий список]
 Реализуйте компонент `DropdownList`, аналогичный указанному на рисунке. Для позиционирования выпадающего списка воспользуйтес контейнером с `position: relatvie`. Для простоты будем считать, что размер кнопки, при нажатии на которой показывается выпадающий список - фиксированного размера (соответственно, вам не нужно через DOM API вычислять размеры и отступы).
 
 Структура компонентов:
@@ -28,4 +27,4 @@
 
 ---
 
-[![Build status](https://ci.appveyor.com/api/projects/status/vf8boes0pmn6ii2p/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-events-state-dropdown/branch/main)
+[![Build status]
